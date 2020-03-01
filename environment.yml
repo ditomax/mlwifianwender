@@ -16,3 +16,5 @@ dependencies:
   - pillow
   - librosa
   - nltk
+  - openpyxl
+  - xlrd
