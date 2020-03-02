@@ -1,0 +1,19 @@
+name: wificlass
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - seaborn
+  - jupyter
+  - scipy
+  - h5py
+  - tensorflow-gpu=2.1
+  - keras-gpu
+  - pillow
+  - librosa
+  - nltk
+  - openpyxl
