@@ -18,3 +18,5 @@ dependencies:
   - nltk
   - openpyxl
   - xlrd
+  - tensorflow-datasets
+  - hiplot
