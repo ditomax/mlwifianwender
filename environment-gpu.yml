@@ -17,3 +17,7 @@ dependencies:
   - librosa
   - nltk
   - openpyxl
+  - xlrd
+  - tensorflow-datasets
+  - hiplot
+  - hyperopt

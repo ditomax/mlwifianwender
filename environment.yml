@@ -20,3 +20,4 @@ dependencies:
   - xlrd
   - tensorflow-datasets
   - hiplot
+  - hyperopt
