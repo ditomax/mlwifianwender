@@ -1,4 +1,4 @@
-name: wificlass
+name: wificlass-gpu
 channels:
   - conda-forge
 dependencies:
@@ -11,7 +11,10 @@ dependencies:
   - jupyter
   - scipy
   - h5py
+  - cudatoolkit=10.1
+  - cudnn=7.6
   - tensorflow-gpu=2.1
+  - tensorflow-estimator==2.1.0
   - keras-gpu
   - pillow
   - librosa
