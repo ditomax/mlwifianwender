@@ -2,7 +2,7 @@ name: wificlass
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.7
   - numpy
   - matplotlib
   - pandas
@@ -11,7 +11,7 @@ dependencies:
   - jupyter
   - scipy
   - h5py
-  - tensorflow
+  - tensorflow=2
   - keras
   - pillow
   - librosa
@@ -21,3 +21,4 @@ dependencies:
   - tensorflow-datasets
   - hiplot
   - hyperopt
+

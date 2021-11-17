@@ -2,8 +2,8 @@ name: wificlass-gpu
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
-  - numpy
+  - python=3.7
+  - numpy=1.19.2
   - matplotlib
   - pandas
   - scikit-learn
@@ -11,10 +11,10 @@ dependencies:
   - jupyter
   - scipy
   - h5py
-  - cudatoolkit=10.1
-  - cudnn=7.6
+  - cudatoolkit
+  - cudnn
   - tensorflow-gpu=2.1
-  - tensorflow-estimator==2.1.0
+  - tensorflow-estimator==2.1
   - keras-gpu
   - pillow
   - librosa
