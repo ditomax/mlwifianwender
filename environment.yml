@@ -1,8 +1,11 @@
 name: wificlass
 channels:
+  - defaults
   - conda-forge
+  - pytorch
+
 dependencies:
-  - python=3.7
+  - python=3
   - numpy
   - matplotlib
   - pandas
@@ -12,6 +15,7 @@ dependencies:
   - scipy
   - h5py
   - tensorflow=2
+  - tensorflow-hub
   - keras
   - pillow
   - librosa
@@ -21,4 +25,7 @@ dependencies:
   - tensorflow-datasets
   - hiplot
   - hyperopt
+  - pytorch
+  - stable-baselines3
+  - gym-all
 
